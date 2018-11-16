@@ -1,0 +1,21 @@
+{
+  "name": "projectile-motion",
+  "version": "1.1.0-dev.1",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phetsims/projectile-motion.git"
+  },
+  "devDependencies": {
+    "grunt": "~1.0.0"
+  },
+  "phet": {
+    "requirejsNamespace": "PROJECTILE_MOTION",
+    "runnable": true,
+    "supportedBrands": [
+      "phet",
+      "adapted-from-phet"
+    ],
+    "simulation": true
+  }
+}
